@@ -1,4 +1,6 @@
 language: swift
 xcode_project: LuCalc.xcodeproj
 osx_image: xcode8.3
+xcode_sdk: iphonesimulator10.3
 xcode_scheme: LuCalcUITests
+script: xcodebuild -project LuCalc.xcodeproj -scheme LuCalcUITests -sdk iphonesimulator10.3 -configuration Debug build test
