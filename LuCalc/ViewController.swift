@@ -62,7 +62,7 @@ class ViewController: UIViewController {
         
         switch operation {
         case 0:
-            result = firstNum + SecondNum + 4
+            result = firstNum + SecondNum
         case 1:
             result = firstNum - SecondNum
         case 2:
