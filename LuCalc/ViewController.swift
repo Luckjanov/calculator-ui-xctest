@@ -31,9 +31,9 @@ class ViewController: UIViewController {
     // MARK: Actions
     @IBAction func CalculateButtonTouch(_ sender: Any) {
         
-        let firstNum: Double
+        let firstNum: Double = Double(FirstNumberField.text!)!
         let SecondNum: Double
-        if let FirstNumberFieldText = FirstNumberField.text {
+        /*if let FirstNumberFieldText = FirstNumberField.text {
             if let firstNumberOptional = Double(FirstNumberFieldText){
                 firstNum = firstNumberOptional
             }
@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         }
         else {
             return
-        }
+        }*/
         
         if let SecondNumberFieldText = SecondNumberField.text {
             if let secondNumberOptional = Double(SecondNumberFieldText){
